@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+    th, td {
+      padding: 10px;
+      border: 1px solid black;
+    }
+    th {
+      background-color: #ee0034
+      color: white;
+    }
+    td {
+      background-color: gray;
+    }
+    table {
+      font-family: Arial, Helvetica;
+      border-collapse: collapse;
+    }
+    tfoot {
+      text-align: center;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <caption>Train Schedule - Westport to Grand Central</caption>
+    <thead>
+      <tr>
+        <th>Origin</th>
+        <th>Destination</th>
+        <th>Departures</th>
+        <th>Arrivals</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Westport</td>
+        <td>Grand Central Station</td>
+        <td>8:03 AM</td>
+        <td>9:24 AM</td>
+      </tr>
+      <tr>
+        <td>Westport</td>
+        <td>Grand Central Station</td>
+        <td>9:03 AM</td>
+        <td>10:24 AM</td>
+      </tr>
+      <tr>
+        <td>Westport</td>
+        <td>Grand Central Station</td>
+        <td>10:03 AM</td>
+        <td>11:24 AM</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="4">MetroNorth Railroad</td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
